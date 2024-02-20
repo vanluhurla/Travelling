@@ -15,6 +15,19 @@ class TVTicketsViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
+    private var mainStackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.axis = .vertical
+        stackView.backgroundColor = .systemPink
+        stackView.translatesAutoresizingMaskIntoConstraints = false
+        return stackView
+    }()
+    private var mainLabel: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .blue
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
     
     let coordinator: TVTicketsCoordinator
     
@@ -42,6 +55,8 @@ extension TVTicketsViewController {
     
     func setupViews() {
         view.addSubview(backgroundView)
+        view.addSubview(mainStackView)
+        view.addSubview(mainLabel)
         
         
     }
@@ -52,7 +67,18 @@ extension TVTicketsViewController {
             backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             backgroundView.topAnchor.constraint(equalTo: view.topAnchor),
             backgroundView.heightAnchor.constraint(equalTo: view.heightAnchor,
-                                                   multiplier: 0.3)
+                                                   multiplier: 0.3),
+            
+            mainStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            mainStackView.centerYAnchor.constraint(equalTo: view.topAnchor, constant: view.bounds.height / 3 - 50),
+            mainStackView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.8),
+            mainStackView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.20),
+            
+            mainLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            mainLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            mainLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5),
+            mainLabel.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.10)
+            
         ])
     }
 }
