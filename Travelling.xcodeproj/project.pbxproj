@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		03C5EF572B84B8BD00D229A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF562B84B8BD00D229A8 /* AppDelegate.swift */; };
 		03C5EF592B84B8BD00D229A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF582B84B8BD00D229A8 /* SceneDelegate.swift */; };
-		03C5EF5B2B84B8BD00D229A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF5A2B84B8BD00D229A8 /* ViewController.swift */; };
-		03C5EF5E2B84B8BD00D229A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C5EF5C2B84B8BD00D229A8 /* Main.storyboard */; };
+		03C5EF5B2B84B8BD00D229A8 /* TVTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF5A2B84B8BD00D229A8 /* TVTicketsViewController.swift */; };
 		03C5EF602B84B8D400D229A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C5EF5F2B84B8D400D229A8 /* Assets.xcassets */; };
 		03C5EF632B84B8D400D229A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C5EF612B84B8D400D229A8 /* LaunchScreen.storyboard */; };
 		03C5EF6E2B84B8D500D229A8 /* TravellingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF6D2B84B8D500D229A8 /* TravellingTests.swift */; };
 		03C5EF782B84B8D500D229A8 /* TravellingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF772B84B8D500D229A8 /* TravellingUITests.swift */; };
 		03C5EF7A2B84B8D500D229A8 /* TravellingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF792B84B8D500D229A8 /* TravellingUITestsLaunchTests.swift */; };
+		03C5EF8B2B84BD2C00D229A8 /* TVTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF8A2B84BD2C00D229A8 /* TVTabController.swift */; };
+		03C5EF8E2B84BD6F00D229A8 /* TVMainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF8D2B84BD6F00D229A8 /* TVMainCoordinator.swift */; };
+		03C5EF902B84BD8800D229A8 /* TVTicketsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF8F2B84BD8800D229A8 /* TVTicketsCoordinator.swift */; };
+		03C5EF932B84BFC300D229A8 /* TVViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C5EF922B84BFC300D229A8 /* TVViewControllerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		03C5EF532B84B8BD00D229A8 /* Travelling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C5EF562B84B8BD00D229A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03C5EF582B84B8BD00D229A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03C5EF5A2B84B8BD00D229A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03C5EF5D2B84B8BD00D229A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03C5EF5A2B84B8BD00D229A8 /* TVTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTicketsViewController.swift; sourceTree = "<group>"; };
 		03C5EF5F2B84B8D400D229A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C5EF622B84B8D400D229A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C5EF642B84B8D400D229A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		03C5EF732B84B8D500D229A8 /* TravellingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravellingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C5EF772B84B8D500D229A8 /* TravellingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellingUITests.swift; sourceTree = "<group>"; };
 		03C5EF792B84B8D500D229A8 /* TravellingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03C5EF8A2B84BD2C00D229A8 /* TVTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTabController.swift; sourceTree = "<group>"; };
+		03C5EF8D2B84BD6F00D229A8 /* TVMainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMainCoordinator.swift; sourceTree = "<group>"; };
+		03C5EF8F2B84BD8800D229A8 /* TVTicketsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTicketsCoordinator.swift; sourceTree = "<group>"; };
+		03C5EF922B84BFC300D229A8 /* TVViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVViewControllerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,9 @@
 		03C5EF552B84B8BD00D229A8 /* Travelling */ = {
 			isa = PBXGroup;
 			children = (
-				03C5EF562B84B8BD00D229A8 /* AppDelegate.swift */,
-				03C5EF582B84B8BD00D229A8 /* SceneDelegate.swift */,
-				03C5EF5A2B84B8BD00D229A8 /* ViewController.swift */,
-				03C5EF5C2B84B8BD00D229A8 /* Main.storyboard */,
-				03C5EF5F2B84B8D400D229A8 /* Assets.xcassets */,
-				03C5EF612B84B8D400D229A8 /* LaunchScreen.storyboard */,
+				03C5EF8C2B84BD5400D229A8 /* Coordinator */,
+				03C5EF872B84BCDE00D229A8 /* View */,
+				03C5EF862B84BBB600D229A8 /* Supporting */,
 				03C5EF642B84B8D400D229A8 /* Info.plist */,
 			);
 			path = Travelling;
@@ -125,6 +128,60 @@
 				03C5EF792B84B8D500D229A8 /* TravellingUITestsLaunchTests.swift */,
 			);
 			path = TravellingUITests;
+			sourceTree = "<group>";
+		};
+		03C5EF862B84BBB600D229A8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				03C5EF612B84B8D400D229A8 /* LaunchScreen.storyboard */,
+				03C5EF5F2B84B8D400D229A8 /* Assets.xcassets */,
+				03C5EF582B84B8BD00D229A8 /* SceneDelegate.swift */,
+				03C5EF562B84B8BD00D229A8 /* AppDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		03C5EF872B84BCDE00D229A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03C5EF892B84BD0700D229A8 /* TabBar */,
+				03C5EF882B84BCF400D229A8 /* Tickets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03C5EF882B84BCF400D229A8 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				03C5EF5A2B84B8BD00D229A8 /* TVTicketsViewController.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		03C5EF892B84BD0700D229A8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				03C5EF8A2B84BD2C00D229A8 /* TVTabController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		03C5EF8C2B84BD5400D229A8 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				03C5EF8D2B84BD6F00D229A8 /* TVMainCoordinator.swift */,
+				03C5EF8F2B84BD8800D229A8 /* TVTicketsCoordinator.swift */,
+				03C5EF912B84BF9900D229A8 /* Factory */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		03C5EF912B84BF9900D229A8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				03C5EF922B84BFC300D229A8 /* TVViewControllerFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +290,6 @@
 			files = (
 				03C5EF632B84B8D400D229A8 /* LaunchScreen.storyboard in Resources */,
 				03C5EF602B84B8D400D229A8 /* Assets.xcassets in Resources */,
-				03C5EF5E2B84B8BD00D229A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C5EF5B2B84B8BD00D229A8 /* ViewController.swift in Sources */,
+				03C5EF5B2B84B8BD00D229A8 /* TVTicketsViewController.swift in Sources */,
+				03C5EF8E2B84BD6F00D229A8 /* TVMainCoordinator.swift in Sources */,
+				03C5EF932B84BFC300D229A8 /* TVViewControllerFactory.swift in Sources */,
+				03C5EF902B84BD8800D229A8 /* TVTicketsCoordinator.swift in Sources */,
+				03C5EF8B2B84BD2C00D229A8 /* TVTabController.swift in Sources */,
 				03C5EF572B84B8BD00D229A8 /* AppDelegate.swift in Sources */,
 				03C5EF592B84B8BD00D229A8 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03C5EF5C2B84B8BD00D229A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03C5EF5D2B84B8BD00D229A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03C5EF612B84B8D400D229A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -447,9 +499,9 @@
 				INFOPLIST_FILE = Travelling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,9 +527,9 @@
 				INFOPLIST_FILE = Travelling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
