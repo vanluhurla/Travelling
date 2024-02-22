@@ -1,0 +1,94 @@
+{
+  "sourceLanguage" : "en-GB",
+  "strings" : {
+    "delay" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exp. 08:32"
+          }
+        }
+      }
+    },
+    "first time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "08:30"
+          }
+        }
+      }
+    },
+    "my ticket" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My Ticket"
+          }
+        }
+      }
+    },
+    "on time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On Time"
+          }
+        }
+      }
+    },
+    "platform" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platform 4"
+          }
+        }
+      }
+    },
+    "reasons" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reasons to buy with us:\n* Tickets on your phone;\n* Live journey tracker;\n* Price predictions."
+          }
+        }
+      }
+    },
+    "second time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10:38"
+          }
+        }
+      }
+    },
+    "weekday" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monday"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

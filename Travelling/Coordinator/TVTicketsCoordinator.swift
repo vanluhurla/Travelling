@@ -26,3 +26,6 @@ class TVTicketsCoordinator {
         navigationController.tabBarItem = UITabBarItem(title: tab.title, image: tab.icon, tag: tab.rawValue)
     }
 }
+
+extension TVTicketsCoordinator: TVTicketsViewModelCoordinator {
+}

@@ -24,6 +24,5 @@ class TVTabController: UITabBarController {
         super.viewDidLoad()
         ticketsCoordinator.start()
         viewControllers = [ticketsCoordinator.navigationController]
-        
     }
 }
