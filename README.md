@@ -17,7 +17,7 @@ The screen used as a reference was My Tickets, where it is possible to see detai
 * forecast;
 * information on which platform the user should go to for boarding.
   
-In the center of the screen, there is a label listing reasons for the user to purchase the ticket with the company. 
+In the centre of the screen, there is a label listing reasons for the user to purchase the ticket with the company. 
 At the bottom of the screen, there is a small animation that replaces the "Plan a trip" button.
 <br><br>
 
@@ -37,13 +37,13 @@ This project adopts a Swift MVVM-C architecture, featuring a user-friendly inter
 
 Design - As it was a screen based on an existing app, the design concept was to keep it as clean as possible. I incorporated the LottieFiles animation library to add a playful touch to the design.
 
-Extension - To keep the project more organized, I utilized the Localizable Strings file, which allowed me to work with my texts in a more seamless manner.
+Extension - To keep the project more organised, I utilised the Localizable Strings file, which allowed me to work with my texts in a more seamless manner.
 
 Model - A struct with the list of all the texts that were created in the Localizable Strings file.
 
 Coordinators - There are two coordinators: the first one coordinates the tab bar along with the SceneDelegate, and the second one is the one that communicates between the view model and the view factory.
 
-View - TabBar Controller, View Model, and View Controller are centralized in this section.
+View - TabBar Controller, View Model, and View Controller are centralised in this section.
 <br><br>
 
 ## Author
