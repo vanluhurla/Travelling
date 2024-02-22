@@ -9,8 +9,9 @@ import UIKit
 
 class TVViewControllerFactory {
     
-    func ticketsViewController(coordinator: TVTicketsCoordinator) -> UIViewController {
-        let viewController = TVTicketsViewController(coordinator: coordinator)
+    func ticketsViewController(coordinator: TVTicketsViewModelCoordinator) -> UIViewController {
+        let viewModel = TVTicketsViewModel(coordinator: coordinator)
+        let viewController = TVTicketsViewController(viewModel: viewModel)
         return viewController
     }
 }
