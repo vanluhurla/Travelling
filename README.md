@@ -30,7 +30,7 @@ At the bottom of the screen, there is a small animation that replaces the "Plan 
 
 ## Design/Architecture
 
-This project adopts a Swift MVVM-C architecture, featuring a user-friendly interface that is completely escapable.
+This project adopts a Swift MVVM-C architecture, featuring a user-friendly interface that is completely scalable.
 <br><br>
 
 ## App Structure
